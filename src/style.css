@@ -1,0 +1,149 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.item-container{
+    display: flex ;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+.container{
+      display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 80%;
+}
+
+.item-card{
+    box-shadow: 0px 0px 10px lightgray;
+    width: 250px;
+    height:fit-content;
+    border-radius: 10px;
+}
+.item-img>img{
+   width: 100%;
+   height: 300px;
+}
+.add-btn{
+   width: 100%;
+   color: white;
+   background-color: black;
+   border-radius: 4px;
+   height: 30px;
+   border: none;
+}
+.item-title,.item-price{
+    margin-left: 10px;
+}
+
+.header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+}
+.Delete-btn{
+      width: 100%;
+   color: white;
+   background-color: rgb(159, 76, 76);
+   border-radius: 4px;
+   height: 30px;
+   border: none;
+}
+h1{
+    text-align: center;
+}
+
+.price-cart{
+    
+    box-shadow: 0 0 10px lightgrey; 
+     width: 300px;
+     border-radius: 5px;
+}
+
+.price-title{
+    width: 30px
+}
+.price{
+   margin-left: 10px;
+}
+
+h2{
+    margin-left: 10px
+}
+
+.td{
+  padding-right: 40px;
+}
+.td2{
+    font-weight: bold;
+}
+hr{
+  width: 120%;
+  margin-left: 4px;
+}
+
+.price-div{
+    position: absolute;
+    top:100px;
+    right: 20px;
+    
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(16, 149, 16);
+    padding: 10px;
+    border-radius: 6px;
+   
+}
+.success{
+   
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:chocolate;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 5px;
+}
+.ok-btn{
+ 
+  border: none;
+  background-color:cadetblue;
+  border-radius: 8px;
+  color: white;
+  height: 25px;
+  width: 30px;
+}
+
+.checkOutDiv{
+     width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:chocolate;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 5px;
+}
